@@ -677,9 +677,7 @@ export default function IchiApp() {
               <span style={{ fontSize:8.5, opacity:0.15, padding:"2px 8px", border:"1px solid rgba(42,36,28,0.1)", borderRadius:12 }}>{TL[entry.type]}</span>
             </div>
 
-            <h2 style={{ fontSize:16, fontWeight:700, marginBottom:24, letterSpacing:"0.06em", lineHeight:1.6, opacity:0.75 }}>
-              {entry.title}
-            </h2>
+            
 
             {entry.hasImage && (
               <div style={{ marginBottom:32, opacity:0.92 }}>
