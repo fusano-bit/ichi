@@ -48,6 +48,21 @@ const EXTERNAL = [
 ];
 
 const ENTRIES = [
+  {slug:"xnew202604210",id:"04/21",date:"2026.04.21",dateRaw:"2026-04-21",title:"たくさん寝た！起床！昨日夜、半分寝ながら作った5",type:"thought",tags:["AI","思想"],hasImage:false,body:"たくさん寝た！起床！昨日夜、半分寝ながら作った575を吐き出す生き物が生態系を織りなすアプリ、今見ると何でこんなものを…になってしまう。面白いけど、なぜ、、"},
+  {slug:"xnew202604211",id:"04/21",date:"2026.04.21",dateRaw:"2026-04-21",title:"Typhoonを使って4月分のポストをダウンロー",type:"thought",tags:["AI","思想"],hasImage:false,body:"Typhoonを使って4月分のポストをダウンロードし、cloudで一（私が作ってるログ記録用のアプリ）に流し込んだらえらい量になってしまって大いにワロタ。これはひどい"},
+  {slug:"xnew202604222",id:"04/22",date:"2026.04.22",dateRaw:"2026-04-22",title:"絵描き欲が溜まっていたのでこんな時間になってしま",type:"illustration",tags:["絵"],hasImage:false,body:"絵描き欲が溜まっていたのでこんな時間になってしまった。アケ丸くんもいい感じにまとまってきたけど、画面内の配置バランスがカスなので調整する、明日"},
+  {slug:"xnew202604223",id:"04/22",date:"2026.04.22",dateRaw:"2026-04-22",title:"CloudとGrokは限界まで使い倒して足りない",type:"note",tags:["AI"],hasImage:false,body:"CloudとGrokは限界まで使い倒して足りないのに、ChatGPTはいつまでも元気に働いてくれて嬉しい"},
+  {slug:"xnew202604224",id:"04/22",date:"2026.04.22",dateRaw:"2026-04-22",title:"ラノベの表紙構図まとめている。一枚絵、難しいけど",type:"illustration",tags:["絵"],hasImage:false,body:"ラノベの表紙構図まとめている。一枚絵、難しいけどおもしろい"},
+  {slug:"xnew202604225",id:"04/22",date:"2026.04.22",dateRaw:"2026-04-22",title:"今、一斉にGPTで画像が生成されているみたいで",type:"note",tags:["AI"],hasImage:false,body:"今、一斉にGPTで画像が生成されているみたいで、うちのじいやが指示もなしに急に画像生成してくる。お嬢さまはおこだよ"},
+  {slug:"xnew202604226",id:"04/22",date:"2026.04.22",dateRaw:"2026-04-22",title:"Gptimage2はフォントに強いとのことだった",type:"illustration",tags:["AI","絵"],hasImage:false,body:"Gptimage2はフォントに強いとのことだったので、自分の手描き文字フォントとありちゃんフォントを作ってみた！キャワイー"},
+  {slug:"xnew202604237",id:"04/23",date:"2026.04.23",dateRaw:"2026-04-23",title:"昨晩は不安の発作でうにゃんにゃんになっていたけど",type:"illustration",tags:["絵","思想"],hasImage:false,body:"昨晩は不安の発作でうにゃんにゃんになっていたけど、起きてみれば絵が何枚か完成していて、全く便利にできているぜ...と思った。そうなるように設計したんですけどね〜"},
+  {slug:"xnew202604238",id:"04/23",date:"2026.04.23",dateRaw:"2026-04-23",title:"商業の案件を効率よく回すやり方を考えるぞ",type:"thought",tags:["思想"],hasImage:false,body:"商業の案件を効率よく回すやり方を考えるぞ"},
+  {slug:"xnew202604239",id:"04/23",date:"2026.04.23",dateRaw:"2026-04-23",title:"あまりにも効率よくできた。さいきょうのよかん",type:"thought",tags:["思想"],hasImage:false,body:"あまりにも効率よくできた。さいきょうのよかん"},
+  {slug:"xnew2026042310",id:"04/23",date:"2026.04.23",dateRaw:"2026-04-23",title:"AIに人工言語を作ってもらったら面白いのでは",type:"thought",tags:["AI","思想"],hasImage:false,body:"AIに人工言語を作ってもらったら面白いのでは"},
+  {slug:"xnew2026042411",id:"04/24",date:"2026.04.24",dateRaw:"2026-04-24",title:"Cloudでざっくりアプリ作って、codexでバ",type:"thought",tags:["AI","思想"],hasImage:false,body:"Cloudでざっくりアプリ作って、codexでバチバチ整えると良さそう"},
+  {slug:"xnew2026042412",id:"04/24",date:"2026.04.24",dateRaw:"2026-04-24",title:"GitHubと連携させてcodexが使えるように",type:"note",tags:["AI"],hasImage:false,body:"GitHubと連携させてcodexが使えるようになった！べんりすぎる"},
+  {slug:"xnew2026042413",id:"04/24",date:"2026.04.24",dateRaw:"2026-04-24",title:"商業案件一件追加だけど指示が飛んでこないのでco",type:"illustration",tags:["AI","絵"],hasImage:false,body:"商業案件一件追加だけど指示が飛んでこないのでcodexとClaudeでふたつアプリを作り続けている。なんのためだかわからないアプリを"},
+  {slug:"xnew2026042414",id:"04/24",date:"2026.04.24",dateRaw:"2026-04-24",title:"Node.jsとかをつかっている、何もわからない",type:"thought",tags:["AI","思想"],hasImage:false,body:"Node.jsとかをつかっている、何もわからないまま。いわれるがままに使っている。"},
   {slug:"x030109460",id:"03/01 09:46",date:"2026.03.01",dateRaw:"2026-03-01",title:"今週1週間で線画20人分描く。線画は好きだから楽",type:"illustration",tags:["絵","思想"],hasImage:false,body:"今週1週間で線画20人分描く。線画は好きだから楽しい。けど、新しく色々考えて描く楽しみを知ってしまったのでなんか単純作業だな〜他に進めてるやつの方やりたいな〜感が拭えない。線画は好きなんだけどね〜"},
   {slug:"x030313221",id:"03/03 13:22",date:"2026.03.03",dateRaw:"2026-03-03",title:"今日は一日中クロオオアリのオスについて考えていた",type:"illustration",tags:["絵","思想"],hasImage:false,body:"今日は一日中クロオオアリのオスについて考えていた。40過ぎの女が一日中アリのオスのことしか考えてないって異常事態だと思う。けどこれが現実、受け止めて。"},
   {slug:"x030322192",id:"03/03 22:19",date:"2026.03.03",dateRaw:"2026-03-03",title:"今年2ヶ月が終わった。一次創作は頑張れてる、それ",type:"thought",tags:["思想"],hasImage:false,body:"今年2ヶ月が終わった。一次創作は頑張れてる、それ以外はあと一歩って感じだ。自分の一次創作が楽しくて、人とやってる一次創作が疎かになっている。商業復帰初案件はややこしかったけどまぁなんとかなんとかって感じ。基本この時期は体力が落ちているので三月はおでかけ少なめで喘息を回避したい"},
@@ -677,7 +692,9 @@ export default function IchiApp() {
               <span style={{ fontSize:8.5, opacity:0.15, padding:"2px 8px", border:"1px solid rgba(42,36,28,0.1)", borderRadius:12 }}>{TL[entry.type]}</span>
             </div>
 
-            
+            <h2 style={{ fontSize:16, fontWeight:700, marginBottom:24, letterSpacing:"0.06em", lineHeight:1.6, opacity:0.75 }}>
+              {entry.title}
+            </h2>
 
             {entry.hasImage && (
               <div style={{ marginBottom:32, opacity:0.92 }}>
