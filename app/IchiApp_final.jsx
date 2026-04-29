@@ -615,7 +615,30 @@ export default function IchiApp() {
             overflow:"auto",
             WebkitOverflowScrolling:"touch",
             position:"relative",
-          }}>
+            cursor:"grab",
+          }}
+          onMouseDown={e => {
+            if (e.button !== 0) return;
+            const el = scrollRef.current;
+            if (!el) return;
+            const startX = e.clientX + el.scrollLeft;
+            const startY = e.clientY + el.scrollTop;
+            el.style.cursor = "grabbing";
+            el.style.userSelect = "none";
+            const onMove = ev => {
+              el.scrollLeft = startX - ev.clientX;
+              el.scrollTop  = startY - ev.clientY;
+            };
+            const onUp = () => {
+              el.style.cursor = "grab";
+              el.style.userSelect = "";
+              window.removeEventListener("mousemove", onMove);
+              window.removeEventListener("mouseup", onUp);
+            };
+            window.addEventListener("mousemove", onMove);
+            window.addEventListener("mouseup", onUp);
+          }}
+          >
             <NetworkGraph
               entries={showExternal ? ALL_ENTRIES : ENTRIES}
               edges={showExternal ? ALL_EDGES : EDGES}
