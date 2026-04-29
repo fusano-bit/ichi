@@ -48,6 +48,20 @@ const EXTERNAL = [
 ];
 
 const ENTRIES = [
+  {slug:"x042918150",id:"04/29 18:15",date:"2026.04.29",dateRaw:"2026-04-29",title:"AI＋絵が描ける絵描きの商業需要が出てきた",type:"thought",tags:["AI","思想"],hasImage:false,body:"AI（生成AI含む）を使い慣れている＋絵が描ける絵描きの商業での需要が出て参りましたぞ。圧倒的早さと正確さ！！！任せな！！案件全部よこしな！！！！"},
+  {slug:"x042915300",id:"04/29 15:30",date:"2026.04.29",dateRaw:"2026-04-29",title:"熱田神宮の舞楽神事を描こうとしている",type:"illustration",tags:["絵"],hasImage:true,body:"熱田神宮の舞楽神事を描こうとしている。お面がまぁすごい顔してんのよな"},
+  {slug:"x042823100",id:"04/28 23:10",date:"2026.04.28",dateRaw:"2026-04-28",title:"夜に不安になると寝落ちするまで絵を描きたくなる",type:"thought",tags:["思想"],hasImage:false,body:"夜に不安になってくると寝落ちするまで絵を描きたくなる。昼夜逆転は良くない、寝なければ、寝なければ、、"},
+  {slug:"x042721400",id:"04/27 21:40",date:"2026.04.27",dateRaw:"2026-04-27",title:"Cephalotes variansのドヘアをGPTimage2で",type:"illustration",tags:["絵","AI"],hasImage:true,body:"Cephalotes variansちゃんをデザインするにあたり1800年後半のセミノール女性の「ドヘア」をしらべてるんだけどもうなんもわかんない。けど、GPTがimage2で作ってくれた。正しいかどうかわからないけどこれだけでも全然たすかる"},
+  {slug:"x042714300",id:"04/27 14:30",date:"2026.04.27",dateRaw:"2026-04-27",title:"4月まとめと5月目標を決めた",type:"thought",tags:["思想"],hasImage:false,body:"ちょっと早いけど五月は入りでバタバタしそうなので、四月まとめと五月の目標を決めた。いいルーティンができている気がする、少なくとも創作は。"},
+  {slug:"x042710200",id:"04/27 10:20",date:"2026.04.27",dateRaw:"2026-04-27",title:"LLMでは全然ドパドパしない",type:"thought",tags:["AI"],hasImage:false,body:"LLMでは全然ドパドバしない。遅い〜、とか思っちゃう。LLMでもドバってみたい。"},
+  {slug:"x042614500",id:"04/26 14:50",date:"2026.04.26",dateRaw:"2026-04-26",title:"R18解禁で世界の構図がまた変わってしまう",type:"thought",tags:["AI","思想"],hasImage:false,body:"R18の諸々が解禁されてしまうと、世界の構図がまた大きく変わってしまう。"},
+  {slug:"x042611300",id:"04/26 11:30",date:"2026.04.26",dateRaw:"2026-04-26",title:"カメアリの頭部構造、図にしてもらった",type:"illustration",tags:["絵","AI"],hasImage:true,body:"カメアリ（Cryptocerus varians）の頭の構造がなんもわからなかったので図を作って！！ってお願いしたらわかりやすいやつしてくれた。すごい。精密さは微妙だけどざっくり構造つかむにはいいな"},
+  {slug:"x042515400",id:"04/25 15:40",date:"2026.04.25",dateRaw:"2026-04-25",title:"オタクとギャルのやり取りを見ている",type:"thought",tags:["思想"],hasImage:false,body:"オタクとギャルのやり取りを見ている。エセジャポンの扱いに似ているなと思う。近しい距離にあるものをリスペクトするのって難しいのかも"},
+  {slug:"x042513200",id:"04/25 13:20",date:"2026.04.25",dateRaw:"2026-04-25",title:"Badge/Cover Art Contest Spring 2026入賞！",type:"illustration",tags:["絵"],hasImage:true,body:"Badge/Cover Art Contest Winners Spring 2026で入賞してた！！うれしー！"},
+  {slug:"x042510100",id:"04/25 10:10",date:"2026.04.25",dateRaw:"2026-04-25",title:"祖語からアリの生態系に合わせて言語を展開していく",type:"thought",tags:["思想"],hasImage:false,body:"ちなみにあれを祖語とし、ここから世界各国のアリの生態系に合わせて言語を展開していきます。どうだ意味わからなすぎて怖いだろう。あまりに自己満足。だがそれがいい"},
+  {slug:"x042508300",id:"04/25 08:30",date:"2026.04.25",dateRaw:"2026-04-25",title:"昨日は完全に正気を失っていた",type:"thought",tags:["思想"],hasImage:false,body:"昨日は完全に正気を失っていたな。擬人化したアリに適応した人工言語、面白いとは思うけどどこんな意味わからなすぎるだろ。私はわかるけど、世の中への受容を全く考えていない。リリース！！！とか叫びながらアップしてたわ。楽しかったからいいけどね笑"},
+  {slug:"x042420300",id:"04/24 20:30",date:"2026.04.24",dateRaw:"2026-04-24",title:"ARICOリリース。放射状の樹で可視化",type:"thought",tags:["思想","絵"],hasImage:true,body:"この子たちの世界観を支える設計言語「ARICO（アリコ）」を公開しました。少語彙・広意味・状態共有中心の祖語、音声＋補助口器の二層構造、世界の正常性を確認する文が「信号」になる詩学。放射状の樹で可視化しています。"},
+  {slug:"x042412100",id:"04/24 12:10",date:"2026.04.24",dateRaw:"2026-04-24",title:"AIに人工言語を作ってもらったら面白いのでは→作った",type:"thought",tags:["AI","思想"],hasImage:false,body:"このポストから作り始めた。今の時代、あっという間やな！！！！（元ポスト：AIに人工言語を作ってもらったら面白いのでは）"},
   {slug:"xnew202604210",id:"04/21",date:"2026.04.21",dateRaw:"2026-04-21",title:"たくさん寝た！起床！昨日夜、半分寝ながら作った5",type:"thought",tags:["AI","思想"],hasImage:false,body:"たくさん寝た！起床！昨日夜、半分寝ながら作った575を吐き出す生き物が生態系を織りなすアプリ、今見ると何でこんなものを…になってしまう。面白いけど、なぜ、、"},
   {slug:"xnew202604211",id:"04/21",date:"2026.04.21",dateRaw:"2026-04-21",title:"Typhoonを使って4月分のポストをダウンロー",type:"thought",tags:["AI","思想"],hasImage:false,body:"Typhoonを使って4月分のポストをダウンロードし、cloudで一（私が作ってるログ記録用のアプリ）に流し込んだらえらい量になってしまって大いにワロタ。これはひどい"},
   {slug:"xnew202604222",id:"04/22",date:"2026.04.22",dateRaw:"2026-04-22",title:"絵描き欲が溜まっていたのでこんな時間になってしま",type:"illustration",tags:["絵"],hasImage:false,body:"絵描き欲が溜まっていたのでこんな時間になってしまった。アケ丸くんもいい感じにまとまってきたけど、画面内の配置バランスがカスなので調整する、明日"},
@@ -467,11 +481,16 @@ export default function IchiApp() {
   const [externalStyle] = useState("outline");
   const cRef = useRef(null);
   const scrollRef = useRef(null);
-  const [dims, setDims] = useState({ w: 380, h: 680 });
+  const [dims, setDims] = useState({ w: 380, h: 680, isDesktop: false, totalW: 380 });
 
   useEffect(() => {
     const m = () => {
-      if (cRef.current) setDims({ w: cRef.current.offsetWidth, h: Math.min(window.innerHeight, 800) });
+      if (cRef.current) {
+        const totalW = cRef.current.offsetWidth;
+        const isDesktop = totalW >= 768;
+        const graphW = isDesktop ? Math.floor(totalW * 0.52) : totalW;
+        setDims({ w: graphW, h: Math.min(window.innerHeight, 900), isDesktop, totalW });
+      }
     };
     m();
     window.addEventListener("resize", m);
@@ -534,6 +553,9 @@ export default function IchiApp() {
       opacity: transition === "in" ? 1 : 0,
       transform: transition === "in" ? "translateY(0)" : "translateY(6px)",
       transition: "opacity 0.25s ease, transform 0.25s ease",
+      display: dims.isDesktop ? "flex" : "block",
+      alignItems: "flex-start",
+      minHeight: dims.isDesktop ? `${dims.h}px` : "auto",
     },
   };
 
@@ -560,47 +582,205 @@ export default function IchiApp() {
 
       <main style={styles.main}>
 
-        {view === "graph" && (
-          <>
-            <div style={{
-              display:"flex", gap:8, alignItems:"center",
-              padding:"8px 18px 6px",
-              borderBottom:"1px solid rgba(42,36,28,0.04)",
+        {/* ── グラフペイン（デスクトップでは常に左に固定） ── */}
+        <div style={{
+          width: dims.isDesktop ? dims.w : "100%",
+          flexShrink: 0,
+          position: dims.isDesktop ? "sticky" : "relative",
+          top: dims.isDesktop ? 56 : "auto",
+          height: dims.isDesktop ? `${dims.h - 56}px` : "auto",
+          display: (!dims.isDesktop && view !== "graph") ? "none" : "block",
+          borderRight: dims.isDesktop ? "1px solid rgba(42,36,28,0.05)" : "none",
+        }}>
+          <div style={{
+            display:"flex", gap:8, alignItems:"center",
+            padding:"8px 18px 6px",
+            borderBottom:"1px solid rgba(42,36,28,0.04)",
+          }}>
+            <button onClick={() => setShowExternal(v => !v)} style={{
+              background:"none", border:"1px solid rgba(42,36,28,0.18)",
+              borderRadius:20, padding:"4px 12px",
+              fontSize:9.5, cursor:"pointer", color:"#2a241c",
+              fontFamily:"'Zen Kaku Gothic New', sans-serif",
+              letterSpacing:"0.08em",
+              opacity: showExternal ? 0.7 : 0.3,
+              transition:"opacity 0.2s",
             }}>
-              <button onClick={() => setShowExternal(v => !v)} style={{
-                background:"none", border:"1px solid rgba(42,36,28,0.18)",
-                borderRadius:20, padding:"4px 12px",
-                fontSize:9.5, cursor:"pointer", color:"#2a241c",
-                fontFamily:"'Zen Kaku Gothic New', sans-serif",
-                letterSpacing:"0.08em",
-                opacity: showExternal ? 0.7 : 0.3,
-                transition:"opacity 0.2s",
-              }}>
-                {showExternal ? "関心を隠す" : "+ 関心を表示"}
-              </button>
-            </div>
-            <div ref={scrollRef} style={{
-              width:"100%",
-              height: dims.h - 56 - 38,
-              overflow:"auto",
-              WebkitOverflowScrolling:"touch",
-              position:"relative",
-            }}>
-              <NetworkGraph
-                entries={showExternal ? ALL_ENTRIES : ENTRIES}
-                edges={showExternal ? ALL_EDGES : EDGES}
-                density={showExternal ? ALL_DENSITY : DENSITY}
-                maxDensity={showExternal ? ALL_MAX_DENSITY : MAX_DENSITY}
-                width={dims.w} height={dims.h - 56}
-                onSelect={e => nav("entry", e)}
-                scrollRef={scrollRef}
-                externalStyle={externalStyle}
-              />
-            </div>
-          </>
+              {showExternal ? "関心を隠す" : "+ 関心を表示"}
+            </button>
+          </div>
+          <div ref={scrollRef} style={{
+            width:"100%",
+            height: dims.isDesktop ? dims.h - 56 - 38 : dims.h - 56 - 38,
+            overflow:"auto",
+            WebkitOverflowScrolling:"touch",
+            position:"relative",
+          }}>
+            <NetworkGraph
+              entries={showExternal ? ALL_ENTRIES : ENTRIES}
+              edges={showExternal ? ALL_EDGES : EDGES}
+              density={showExternal ? ALL_DENSITY : DENSITY}
+              maxDensity={showExternal ? ALL_MAX_DENSITY : MAX_DENSITY}
+              width={dims.w} height={dims.h - 56}
+              onSelect={e => nav("entry", e)}
+              scrollRef={scrollRef}
+              externalStyle={externalStyle}
+            />
+          </div>
+        </div>
+
+        {/* ── 右ペイン（デスクトップのみ、list/about/entryを表示） ── */}
+        {dims.isDesktop && (
+          <div style={{
+            flex: 1,
+            height: `${dims.h - 56}px`,
+            overflowY: "auto",
+            position: "sticky",
+            top: 56,
+          }}>
+            {view === "graph" && (
+              <div style={{ padding:"40px 32px", opacity:0.25, fontSize:11, fontFamily:"'Zen Kaku Gothic New', sans-serif", letterSpacing:"0.14em" }}>
+                ノードをタップして開く
+              </div>
+            )}
+            {view === "list" && (
+              <div style={{ padding:"20px 32px 80px" }}>
+                <div style={{ display:"flex", gap:8, marginBottom:28, marginTop:4 }}>
+                  {[null, "thought","note","illustration"].map(f => (
+                    <button key={String(f)} onClick={() => setFilter(f)} style={{
+                      background:"none", border:"none", cursor:"pointer",
+                      fontSize:9.5, padding:"5px 10px",
+                      fontFamily:"'Zen Kaku Gothic New', sans-serif",
+                      color:"#2a241c",
+                      opacity: filter === f ? 0.75 : 0.22,
+                      borderBottom: filter === f ? "1px solid rgba(42,36,28,0.4)" : "1px solid transparent",
+                      transition:"opacity 0.2s, border-color 0.2s",
+                      letterSpacing:"0.08em",
+                    }}>
+                      {f === null ? "すべて" : TL[f]}
+                    </button>
+                  ))}
+                </div>
+                {filteredEntries.map((e) => (
+                  <div key={e.slug} onClick={() => nav("entry", e)}
+                    style={{
+                      cursor:"pointer", padding:"14px 0",
+                      borderBottom:"1px solid rgba(42,36,28,0.04)",
+                      display:"grid", gridTemplateColumns:"56px 22px 1fr",
+                      alignItems:"baseline", gap:10, transition:"opacity 0.15s",
+                    }}
+                    onMouseEnter={ev => ev.currentTarget.style.opacity = "0.4"}
+                    onMouseLeave={ev => ev.currentTarget.style.opacity = "1"}>
+                    <span style={{ fontSize:9.5, opacity:0.2, fontVariantNumeric:"tabular-nums", fontFamily:"'Zen Kaku Gothic New', sans-serif", letterSpacing:"0.02em" }}>{e.date}</span>
+                    <span style={{ fontSize:8, opacity:0.15, fontFamily:"'Zen Kaku Gothic New', sans-serif" }}>{TL[e.type]}</span>
+                    <div>
+                      <div style={{ fontSize:13.5, letterSpacing:"0.04em" }}>{e.title}</div>
+                      <div style={{ fontSize:10, opacity:0.25, marginTop:4, lineHeight:1.6, letterSpacing:"0.01em" }}>
+                        {e.body.slice(0, 48)}{e.body.length > 48 ? "…" : ""}
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+            {view === "about" && (
+              <div style={{ padding:"32px 32px 80px", maxWidth:540 }}>
+                <h1 style={{ fontSize:15, fontWeight:700, marginBottom:44, letterSpacing:"0.18em", opacity:0.5 }}>「一」について</h1>
+                {ABOUT.map((p, i) => {
+                  const isLast = i === ABOUT.length - 1;
+                  const isSecondLast = i === ABOUT.length - 2;
+                  return (
+                    <p key={i} style={{
+                      fontSize: isLast ? 15 : 12.5,
+                      marginBottom: isLast ? 0 : isSecondLast ? 40 : 26,
+                      opacity: isLast ? 0.6 : 0.42,
+                      fontWeight: isLast ? 700 : 400,
+                      lineHeight: isLast ? 1.8 : 2.1,
+                      letterSpacing: isLast ? "0.12em" : "0.04em",
+                    }}>{p}</p>
+                  );
+                })}
+                <div style={{ marginTop:60, paddingTop:16, borderTop:"1px solid rgba(42,36,28,0.05)", fontSize:9.5, opacity:0.14, fontFamily:"'Zen Kaku Gothic New', sans-serif", letterSpacing:"0.12em" }}>
+                  フサノ — 2026
+                </div>
+              </div>
+            )}
+            {view === "entry" && entry && (
+              <div style={{ padding:"24px 32px 80px", maxWidth:560 }}>
+                <div onClick={() => nav("graph")} style={{
+                  fontSize:11, opacity:0.55, cursor:"pointer",
+                  marginBottom:36, padding:"8px 0",
+                  fontFamily:"'Zen Kaku Gothic New', sans-serif",
+                  letterSpacing:"0.12em",
+                  display:"inline-flex", alignItems:"center", gap:8,
+                  transition:"opacity 0.15s",
+                  borderBottom:"1px solid rgba(42,36,28,0.15)",
+                }}
+                  onMouseEnter={ev => ev.currentTarget.style.opacity="1"}
+                  onMouseLeave={ev => ev.currentTarget.style.opacity="0.55"}>
+                  ← グラフに戻る
+                </div>
+                <div style={{ display:"flex", gap:14, alignItems:"center", marginBottom:24, fontFamily:"'Zen Kaku Gothic New', sans-serif" }}>
+                  <span style={{ fontSize:9.5, opacity:0.22, letterSpacing:"0.04em" }}>{entry.date}</span>
+                  <span style={{ fontSize:8.5, opacity:0.15, padding:"2px 8px", border:"1px solid rgba(42,36,28,0.1)", borderRadius:12 }}>{TL[entry.type]}</span>
+                </div>
+                {entry.hasImage && (
+                  <div style={{ marginBottom:32, opacity:0.92 }}>
+                    <SumiArt seed={entry.id} size={Math.min(dims.totalW * 0.44 - 64, 300)} />
+                  </div>
+                )}
+                <p style={{ fontSize:14, opacity:0.52, marginBottom:36, whiteSpace:"pre-wrap", lineHeight:2.1, letterSpacing:"0.04em" }}>
+                  {entry.body}
+                </p>
+                <div style={{ display:"flex", gap:7, flexWrap:"wrap", marginBottom:40 }}>
+                  {entry.tags.map(t => (
+                    <span key={t} style={{
+                      fontSize:8.5, padding:"3px 10px",
+                      border:"1px solid rgba(42,36,28,0.08)",
+                      borderRadius:14, opacity:0.28,
+                      fontFamily:"'Zen Kaku Gothic New', sans-serif",
+                      letterSpacing:"0.06em",
+                    }}>{t}</span>
+                  ))}
+                </div>
+                {(() => {
+                  const idx = ENTRIES.findIndex(e => e.slug === entry.slug);
+                  if (idx < 0) return null;
+                  const rel = EDGES
+                    .filter(e => e.from === idx || e.to === idx)
+                    .map(e => ({ entry: ENTRIES[e.from === idx ? e.to : e.from], tags: e.tags }))
+                    .slice(0, 4);
+                  if (!rel.length) return null;
+                  return (
+                    <div style={{ borderTop:"1px solid rgba(42,36,28,0.05)", paddingTop:20 }}>
+                      <div style={{ fontSize:9, opacity:0.18, marginBottom:14, fontFamily:"'Zen Kaku Gothic New', sans-serif", letterSpacing:"0.14em" }}>つながり</div>
+                      {rel.map((r, ri) => (
+                        <div key={ri} onClick={() => nav("entry", r.entry)}
+                          style={{
+                            cursor:"pointer", padding:"12px 0",
+                            borderBottom:"1px solid rgba(42,36,28,0.025)",
+                            display:"grid", gridTemplateColumns:"52px 1fr auto",
+                            alignItems:"baseline", gap:10, transition:"opacity 0.15s",
+                          }}
+                          onMouseEnter={ev => ev.currentTarget.style.opacity="0.35"}
+                          onMouseLeave={ev => ev.currentTarget.style.opacity="1"}>
+                          <span style={{ fontSize:9, opacity:0.2, fontFamily:"'Zen Kaku Gothic New', sans-serif" }}>{r.entry.id}</span>
+                          <span style={{ fontSize:12.5, letterSpacing:"0.03em" }}>{r.entry.title}</span>
+                          <span style={{ fontSize:7.5, opacity:0.15, fontFamily:"'Zen Kaku Gothic New', sans-serif", whiteSpace:"nowrap" }}>{r.tags.join("　")}</span>
+                        </div>
+                      ))}
+                    </div>
+                  );
+                })()}
+                <div style={{ marginTop:52, paddingTop:16, borderTop:"1px solid rgba(42,36,28,0.04)", fontSize:11, opacity:0.13, fontStyle:"italic", letterSpacing:"0.1em" }}>
+                  手で触れるように、考える。
+                </div>
+              </div>
+            )}
+          </div>
         )}
 
-        {view === "list" && (
+        {view === "list" && (!dims.isDesktop) && (
           <div style={{ padding:"20px 22px 80px" }}>
             <div style={{ display:"flex", gap:8, marginBottom:28, marginTop:4 }}>
               {[null, "thought","note","illustration"].map(f => (
@@ -646,7 +826,7 @@ export default function IchiApp() {
           </div>
         )}
 
-        {view === "about" && (
+        {view === "about" && (!dims.isDesktop) && (
           <div style={{ padding:"32px 26px 80px", maxWidth:440 }}>
             <h1 style={{ fontSize:15, fontWeight:700, marginBottom:44, letterSpacing:"0.18em", opacity:0.5 }}>
               「一」について
@@ -671,7 +851,7 @@ export default function IchiApp() {
           </div>
         )}
 
-        {view === "entry" && entry && (
+        {view === "entry" && entry && (!dims.isDesktop) && (
           <div style={{ padding:"16px 26px 80px", maxWidth:440 }}>
             <div onClick={() => nav("graph")} style={{
               fontSize:11, opacity:0.55, cursor:"pointer",
