@@ -280,10 +280,13 @@ function NetworkGraph({ entries, edges, density, maxDensity, onSelect, width, he
   useEffect(() => {
     if (positions.length && scrollRef?.current) {
       const node = positions[0];
-      if (node) {
-        scrollRef.current.scrollTo({
-          left: Math.max(0, node.x - width / 2),
-          top: Math.max(0, node.y - height * 0.35),
+      const el = scrollRef.current;
+      if (node && el) {
+        const viewW = el.clientWidth;
+        const viewH = el.clientHeight;
+        el.scrollTo({
+          left: Math.max(0, node.x - viewW / 2),
+          top: Math.max(0, node.y - viewH / 2),
           behavior: "instant",
         });
       }
