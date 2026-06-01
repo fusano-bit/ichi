@@ -671,6 +671,9 @@ export default function IchiApp() {
             window.addEventListener("mousemove", onMove);
             window.addEventListener("mouseup", onUp);
           }}
+          onTouchEnd={e => {
+            if (e.touches.length < 2) pinchRef.current.dist = null;
+          }}
           >
             <NetworkGraph
               entries={showExternal ? ALL_ENTRIES : ENTRIES}
